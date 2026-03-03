@@ -1,0 +1,50 @@
+{
+    "name" : "IC卡积分系统",
+    "appid" : "__UNI__9EA6A01",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "permissions" : {
+            "NFC" : {
+                "description" : "用于读取IC卡UID信息"
+            },
+            "android.permission.INTERNET" : {
+                "description" : "用于访问后端接口"
+            }
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.NFC\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>"
+                ]
+            },
+            "ios" : {
+                "dSYMs" : false
+            },
+            "sdkConfigs" : {}
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {},
+    "mp-alipay" : {},
+    "mp-baidu" : {},
+    "mp-toutiao" : {},
+    "mp-qq" : {},
+    "mp-360" : {},
+    "mp-jd" : {},
+    "mp-kuaishou" : {},
+    "mp-lark" : {},
+    "mp-tiktok" : {},
+    "mp-pdd" : {},
+    "mp-video号" : {},
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3"
+}

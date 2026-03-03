@@ -1,0 +1,19 @@
+{
+	"pages": [
+		{"path": "pages/index/index", "style": {"navigationBarTitleText": "IC卡积分系统"}},
+		{"path": "pages/register/register", "style": {"navigationBarTitleText": "IC卡开户"}},
+		{"path": "pages/query/query", "style": {"navigationBarTitleText": "积分查询"}},
+		{"path": "pages/update/update", "style": {"navigationBarTitleText": "积分增减"}}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "IC卡积分系统",
+		"navigationBarBackgroundColor": "#F8F8F8"
+	},
+	"app-plus": {
+		"permissions": {
+			"NFC": {"description": "用于读取IC卡信息"},
+			"android.permission.INTERNET": {"description": "用于访问后端接口"}
+		}
+	}
+}
